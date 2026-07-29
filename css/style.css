@@ -644,12 +644,6 @@ button {
   object-fit: cover;
 }
 
-.vision-banner__shade {
-  position: absolute;
-  inset: 0;
-  background: var(--color-black-60);
-}
-
 .slogan-banner__content,
 .vision-banner__content {
   position: relative;
