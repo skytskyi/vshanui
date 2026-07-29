@@ -187,9 +187,7 @@
   };
 
   document
-    .querySelectorAll(
-      ".about-hero__title, .section-title, .mission__label, .memory-lives__lead"
-    )
+    .querySelectorAll(".section-title, .mission__label, .memory-lives__lead")
     .forEach((el) => wrapLineReveal(el));
 
   const missionHeadline = document.querySelector(".mission__headline");
@@ -200,7 +198,7 @@
   let lineObserver = null;
   const observeRevealRoots = () => {
     const roots = document.querySelectorAll(
-      ".about-hero__title, .section-title, .mission__label, .mission__headline, .memory-lives__lead, .quote-banner__text"
+      ".section-title, .mission__label, .mission__headline, .memory-lives__lead, .quote-banner__text"
     );
 
     if (reduceMotion.matches) {
@@ -256,12 +254,6 @@
   );
 
   observeRevealRoots();
-
-  // Hero title should animate on load
-  const heroTitle = document.querySelector(".about-hero__title");
-  if (heroTitle) {
-    requestAnimationFrame(() => heroTitle.classList.add("is-inview"));
-  }
 
   /* -------------------------------------------------------------------------- */
   /* Parallax + scale banners                                                   */
