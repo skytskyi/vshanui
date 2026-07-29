@@ -443,22 +443,11 @@ button {
   inset: 0;
 }
 
-.quote-banner__media > img:first-child {
+.quote-banner__media > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center right;
-}
-
-.quote-banner__noise {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.3;
-  mix-blend-mode: soft-light;
-  pointer-events: none;
 }
 
 .quote-banner__content {
