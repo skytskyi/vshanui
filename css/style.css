@@ -478,6 +478,7 @@ button {
 
 .quote-banner__name {
   font-weight: 600;
+  color: var(--color-yellow);
 }
 
 .quote-banner__role {
