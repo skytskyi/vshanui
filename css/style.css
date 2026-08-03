@@ -924,9 +924,6 @@ button {
 }
 
 .site-footer__brand {
-  width: 100%;
-  margin-inline: 0;
-  padding-inline: 0;
   display: grid;
   gap: 12px;
   margin-bottom: 48px;
@@ -934,7 +931,6 @@ button {
 
 .site-footer__wordmark {
   width: 100%;
-  max-width: none;
   height: auto;
   display: block;
 }
@@ -943,7 +939,6 @@ button {
   width: min(40%, 580px);
   max-width: 580px;
   height: auto;
-  margin-inline-start: var(--gutter);
 }
 
 .site-footer__bottom {
